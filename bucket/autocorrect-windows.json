@@ -9,7 +9,12 @@
       "hash": "67f9571f547f41f3b28392e88bcf8ff9f8a3b9bb4d0dc293ffee217de77a0245"
     }
   },
-  "bin": "AutoCorrect.App.exe",
+  "bin": [
+    [
+      "AutoCorrect.App.exe",
+      "autocorrect-windows"
+    ]
+  ],
   "shortcuts": [
     [
       "AutoCorrect.App.exe",
@@ -26,5 +31,8 @@
       }
     }
   },
-  "notes": "Tray app — launch AutoCorrect from the Start menu shortcut. Updates also available via in-app Check for updates."
+  "notes": [
+    "Name is autocorrect-windows to avoid clashing with Scoop main's unrelated 'autocorrect' (CJK linter).",
+    "Tray app — launch from the Start menu shortcut. Updates also via in-app Check for updates."
+  ]
 }
