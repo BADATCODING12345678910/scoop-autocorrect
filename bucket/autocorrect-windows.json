@@ -1,12 +1,12 @@
 {
-  "version": "0.2.23",
+  "version": "0.2.25",
   "description": "System-wide autocorrect, Win+H dictation fix, snippets, and rewrite for every Windows app.",
   "homepage": "https://badatcoding12345678910.github.io/AutoCorrect-Windows/",
   "license": "Proprietary",
   "architecture": {
     "64bit": {
-      "url": "https://github.com/BADATCODING12345678910/AutoCorrect-Windows/releases/download/v0.2.23/AutoCorrect-0.2.23-win-x64.zip",
-      "hash": "67f9571f547f41f3b28392e88bcf8ff9f8a3b9bb4d0dc293ffee217de77a0245"
+      "url": "https://github.com/BADATCODING12345678910/AutoCorrect-Windows/releases/download/v0.2.25/AutoCorrect-0.2.25-win-x64.zip",
+      "hash": "9fe656cc91f23225ecdf0d786975f42f7ad3e666a6972ce95b6a1b36504edb7d"
     }
   },
   "bin": [
@@ -33,6 +33,6 @@
   },
   "notes": [
     "Name is autocorrect-windows to avoid clashing with Scoop main's unrelated 'autocorrect' (CJK linter).",
-    "Tray app — launch from the Start menu shortcut. Updates also via in-app Check for updates."
+    "After install, tray Check for updates uses the in-app feed (can be newer than this Scoop version)."
   ]
 }
